@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000c2;
+    color: white;
+    padding: 15px 20px;
+}
+li{
+    list-style: none;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 100px;
+}
+.nav-bar li a:hover{
+    color: #2f697e;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(hillsss.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 35px;
+    background: #012d3d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: x-large;
+}
+.btn:hover{
+    background-color: #012d3d8f;
+}
+
+footer{
+    background-color: #000000e6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.social-links a{
+    margin: 0 10px;
+    color: #fff;
+    font-size: x-large;
+    text-decoration: none;
+}
+ .social-links a:hover{
+    color:  #7543e8;
+ }
+
+ @media (max-width: 768px){
+    .nav-bar{
+        display: none;
+        flex-direction: column;
+        background-color: #444;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        padding: 15px;
+    }
+    .nav-bar.active{
+        display: flex;
+    }
+    .menu{
+        display: block;
+    }
+ }
