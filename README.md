@@ -1,0 +1,1 @@
+This project is a basic landing page built with HTML and CSS. It includes a navigation bar with links, a hero section with a background image, a heading, description, and a call-to-action button. I also added a footer with copyright text and social links. it a simple, clean, and responsive web layout using only HTML and CSS.
